@@ -52,11 +52,13 @@ compatible with it (and with other terrain mods):
 Needs JDK 21.
 
 ```sh
-./gradlew build          # jar ends up in build/libs/
-./gradlew runClient      # dev client
+./gradlew build              # jar ends up in build/libs/
+./gradlew runClient          # dev client
+./gradlew runGameTestServer  # loads all data in a real server and places every worldgen feature
 ```
 
-GitHub Actions builds the jar on every push. Download it from the run's **mcflora-jar** artifact.
+GitHub Actions builds the jar and runs the game tests on every push. Download the jar from the
+run's **mcflora-jar** artifact.
 
 ### Regenerating assets
 JSON and textures come from scripts, so edit those rather than the generated files:
