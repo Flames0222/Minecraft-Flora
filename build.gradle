@@ -76,3 +76,9 @@ idea {
         downloadJavadoc = true
     }
 }
+
+// Byte-for-byte reproducible jars, so CI only commits release/ when the mod actually changes.
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
