@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mcflora:block/japanese_iris_bottom"
+  },
+  "render_type": "minecraft:cutout"
+}

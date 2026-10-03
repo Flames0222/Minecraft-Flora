@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_red_spider_lily",
+  "features": [
+    "mcflora:red_spider_lily"
+  ],
+  "step": "vegetal_decoration"
+}

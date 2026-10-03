@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mcflora:blue_hydrangea"
+    }
+  ],
+  "result": {
+    "id": "minecraft:light_blue_dye",
+    "count": 2
+  },
+  "group": "light_blue_dye"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_old_mans_beard",
+  "features": [
+    "mcflora:old_mans_beard"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mcflora:frost_moss_block",
+    "mcflora:sphagnum_moss_block",
+    "mcflora:frost_moss_carpet",
+    "mcflora:sphagnum_moss_carpet"
+  ]
+}

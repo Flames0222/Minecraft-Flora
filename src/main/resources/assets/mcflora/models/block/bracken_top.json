@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mcflora:block/bracken_top"
+  },
+  "render_type": "minecraft:cutout"
+}

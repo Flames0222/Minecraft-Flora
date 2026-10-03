@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#mcflora:mosses",
+    "minecraft:snow_block",
+    "minecraft:gravel",
+    "minecraft:calcite",
+    "minecraft:packed_ice",
+    "#minecraft:base_stone_overworld"
+  ]
+}

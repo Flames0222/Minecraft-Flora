@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mcflora:cotton_grass"
+    }
+  ],
+  "result": {
+    "id": "minecraft:white_dye",
+    "count": 2
+  },
+  "group": "white_dye"
+}

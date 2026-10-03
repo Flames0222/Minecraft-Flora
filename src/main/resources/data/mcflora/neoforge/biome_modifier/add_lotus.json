@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_lotus",
+  "features": [
+    "mcflora:lotus"
+  ],
+  "step": "vegetal_decoration"
+}

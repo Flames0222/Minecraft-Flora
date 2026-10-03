@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mcflora:lotus_flower"
+    }
+  ],
+  "result": {
+    "id": "minecraft:pink_dye",
+    "count": 1
+  },
+  "group": "pink_dye"
+}

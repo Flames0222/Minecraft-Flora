@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_rafflesia",
+  "features": [
+    "mcflora:rafflesia"
+  ],
+  "step": "vegetal_decoration"
+}

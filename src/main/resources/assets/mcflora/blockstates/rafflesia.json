@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "mcflora:block/rafflesia"
+      },
+      {
+        "model": "mcflora:block/rafflesia",
+        "y": 90
+      },
+      {
+        "model": "mcflora:block/rafflesia",
+        "y": 180
+      },
+      {
+        "model": "mcflora:block/rafflesia",
+        "y": 270
+      }
+    ]
+  }
+}

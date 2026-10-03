@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mcflora:red_spider_lily"
+    }
+  ],
+  "result": {
+    "id": "minecraft:red_dye",
+    "count": 1
+  },
+  "group": "red_dye"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_arctic_poppy",
+  "features": [
+    "mcflora:arctic_poppy"
+  ],
+  "step": "vegetal_decoration"
+}

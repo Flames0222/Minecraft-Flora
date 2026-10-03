@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mcflora:pink_hydrangea"
+    }
+  ],
+  "result": {
+    "id": "minecraft:pink_dye",
+    "count": 2
+  },
+  "group": "pink_dye"
+}

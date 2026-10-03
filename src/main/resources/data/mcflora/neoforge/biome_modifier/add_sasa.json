@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_sasa",
+  "features": [
+    "mcflora:sasa_bamboo_grass"
+  ],
+  "step": "vegetal_decoration"
+}

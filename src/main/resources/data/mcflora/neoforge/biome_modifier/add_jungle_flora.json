@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_jungle_flora",
+  "features": [
+    "mcflora:monstera",
+    "mcflora:birds_nest_fern",
+    "mcflora:nepenthes"
+  ],
+  "step": "vegetal_decoration"
+}

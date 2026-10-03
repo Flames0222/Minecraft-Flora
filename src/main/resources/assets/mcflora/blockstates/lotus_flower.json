@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "mcflora:block/lotus_flower"
+      },
+      {
+        "model": "mcflora:block/lotus_flower",
+        "y": 90
+      },
+      {
+        "model": "mcflora:block/lotus_flower",
+        "y": 180
+      },
+      {
+        "model": "mcflora:block/lotus_flower",
+        "y": 270
+      }
+    ]
+  }
+}

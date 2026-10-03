@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_japanese_iris",
+  "features": [
+    "mcflora:japanese_iris"
+  ],
+  "step": "vegetal_decoration"
+}

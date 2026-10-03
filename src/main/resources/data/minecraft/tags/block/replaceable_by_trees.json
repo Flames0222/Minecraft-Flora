@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "mcflora:silver_lichen",
+    "mcflora:black_lichen",
+    "mcflora:brown_lichen",
+    "mcflora:rust_lichen",
+    "mcflora:old_mans_beard",
+    "mcflora:reindeer_lichen",
+    "mcflora:cotton_grass",
+    "mcflora:arctic_poppy",
+    "mcflora:bracken",
+    "mcflora:sasa_bamboo_grass",
+    "mcflora:red_spider_lily",
+    "mcflora:japanese_iris",
+    "mcflora:blue_hydrangea",
+    "mcflora:pink_hydrangea",
+    "mcflora:monstera",
+    "mcflora:birds_nest_fern",
+    "mcflora:nepenthes",
+    "mcflora:rafflesia"
+  ]
+}

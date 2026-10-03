@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mcflora:block/pink_hydrangea"
+  },
+  "render_type": "minecraft:cutout"
+}

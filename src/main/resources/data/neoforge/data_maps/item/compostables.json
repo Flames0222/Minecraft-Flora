@@ -1,0 +1,77 @@
+{
+  "replace": false,
+  "values": {
+    "mcflora:silver_lichen": {
+      "chance": 0.3
+    },
+    "mcflora:black_lichen": {
+      "chance": 0.3
+    },
+    "mcflora:brown_lichen": {
+      "chance": 0.3
+    },
+    "mcflora:rust_lichen": {
+      "chance": 0.3
+    },
+    "mcflora:old_mans_beard": {
+      "chance": 0.3
+    },
+    "mcflora:reindeer_lichen": {
+      "chance": 0.3
+    },
+    "mcflora:frost_moss_block": {
+      "chance": 0.65
+    },
+    "mcflora:frost_moss_carpet": {
+      "chance": 0.3
+    },
+    "mcflora:sphagnum_moss_block": {
+      "chance": 0.65
+    },
+    "mcflora:sphagnum_moss_carpet": {
+      "chance": 0.3
+    },
+    "mcflora:cotton_grass": {
+      "chance": 0.65
+    },
+    "mcflora:arctic_poppy": {
+      "chance": 0.65
+    },
+    "mcflora:bracken": {
+      "chance": 0.65
+    },
+    "mcflora:sasa_bamboo_grass": {
+      "chance": 0.65
+    },
+    "mcflora:red_spider_lily": {
+      "chance": 0.65
+    },
+    "mcflora:japanese_iris": {
+      "chance": 0.65
+    },
+    "mcflora:blue_hydrangea": {
+      "chance": 0.65
+    },
+    "mcflora:pink_hydrangea": {
+      "chance": 0.65
+    },
+    "mcflora:lotus_pad": {
+      "chance": 0.65
+    },
+    "mcflora:lotus_flower": {
+      "chance": 0.65
+    },
+    "mcflora:monstera": {
+      "chance": 0.85
+    },
+    "mcflora:birds_nest_fern": {
+      "chance": 0.65
+    },
+    "mcflora:nepenthes": {
+      "chance": 0.65
+    },
+    "mcflora:rafflesia": {
+      "chance": 0.85
+    }
+  }
+}

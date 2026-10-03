@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_lichens",
+  "features": [
+    "mcflora:silver_lichen",
+    "mcflora:black_lichen",
+    "mcflora:brown_lichen",
+    "mcflora:rust_lichen"
+  ],
+  "step": "vegetal_decoration"
+}

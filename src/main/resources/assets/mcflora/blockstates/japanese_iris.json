@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "mcflora:block/japanese_iris_bottom"
+    },
+    "half=upper": {
+      "model": "mcflora:block/japanese_iris_top"
+    }
+  }
+}

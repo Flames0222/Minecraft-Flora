@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mcflora:block/sphagnum_moss_block"
+  }
+}

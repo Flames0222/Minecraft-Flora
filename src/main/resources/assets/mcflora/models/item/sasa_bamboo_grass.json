@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mcflora:block/sasa_bamboo_grass_top"
+  }
+}

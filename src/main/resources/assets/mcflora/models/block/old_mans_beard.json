@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mcflora:block/old_mans_beard"
+  },
+  "render_type": "minecraft:cutout"
+}

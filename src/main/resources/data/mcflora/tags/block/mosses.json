@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:moss_block",
+    "mcflora:frost_moss_block",
+    "mcflora:sphagnum_moss_block"
+  ]
+}

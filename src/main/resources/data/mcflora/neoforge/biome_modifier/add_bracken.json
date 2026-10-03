@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_bracken",
+  "features": [
+    "mcflora:bracken"
+  ],
+  "step": "vegetal_decoration"
+}

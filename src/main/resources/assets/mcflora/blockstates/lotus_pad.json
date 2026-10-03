@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "mcflora:block/lotus_pad"
+      },
+      {
+        "model": "mcflora:block/lotus_pad",
+        "y": 90
+      },
+      {
+        "model": "mcflora:block/lotus_pad",
+        "y": 180
+      },
+      {
+        "model": "mcflora:block/lotus_pad",
+        "y": 270
+      }
+    ]
+  }
+}

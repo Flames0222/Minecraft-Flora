@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mcflora:brown_lichen"
+    }
+  ],
+  "result": {
+    "id": "minecraft:brown_dye",
+    "count": 1
+  },
+  "group": "brown_dye"
+}

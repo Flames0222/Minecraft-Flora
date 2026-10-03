@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mcflora:block/red_spider_lily"
+  },
+  "render_type": "minecraft:cutout"
+}

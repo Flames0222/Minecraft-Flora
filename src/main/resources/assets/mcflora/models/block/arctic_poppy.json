@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mcflora:block/arctic_poppy"
+  },
+  "render_type": "minecraft:cutout"
+}

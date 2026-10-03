@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "carpet",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "mcflora:frost_moss_block"
+    }
+  },
+  "result": {
+    "id": "mcflora:frost_moss_carpet",
+    "count": 3
+  }
+}

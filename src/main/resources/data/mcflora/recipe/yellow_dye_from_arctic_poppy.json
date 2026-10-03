@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mcflora:arctic_poppy"
+    }
+  ],
+  "result": {
+    "id": "minecraft:yellow_dye",
+    "count": 1
+  },
+  "group": "yellow_dye"
+}

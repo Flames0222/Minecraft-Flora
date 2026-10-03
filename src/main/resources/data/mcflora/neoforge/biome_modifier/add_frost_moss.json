@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_frost_moss",
+  "features": [
+    "mcflora:frost_moss_patch"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_reindeer_lichen",
+  "features": [
+    "mcflora:reindeer_lichen"
+  ],
+  "step": "vegetal_decoration"
+}

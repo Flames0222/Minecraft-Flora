@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mcflora:blocks/sasa_bamboo_grass",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mcflora:sasa_bamboo_grass"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mcflora:sasa_bamboo_grass",
+          "properties": {
+            "half": "lower"
+          }
+        }
+      ]
+    }
+  ]
+}

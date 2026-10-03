@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_hydrangea",
+  "features": [
+    "mcflora:hydrangea"
+  ],
+  "step": "vegetal_decoration"
+}

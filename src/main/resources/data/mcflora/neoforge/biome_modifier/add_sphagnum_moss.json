@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#mcflora:has_sphagnum_moss",
+  "features": [
+    "mcflora:sphagnum_moss_patch"
+  ],
+  "step": "vegetal_decoration"
+}

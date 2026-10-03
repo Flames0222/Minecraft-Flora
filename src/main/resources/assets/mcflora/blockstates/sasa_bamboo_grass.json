@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "mcflora:block/sasa_bamboo_grass_bottom"
+    },
+    "half=upper": {
+      "model": "mcflora:block/sasa_bamboo_grass_top"
+    }
+  }
+}

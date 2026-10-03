@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 4,
+          "data": {
+            "Name": "mcflora:frost_moss_carpet"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "mcflora:reindeer_lichen"
+          }
+        }
+      ]
+    }
+  }
+}
