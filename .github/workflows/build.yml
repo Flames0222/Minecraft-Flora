@@ -17,6 +17,15 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
       - name: Build mod jar
         run: ./gradlew build --no-daemon
+      - name: Run game tests
+        run: ./gradlew runGameTestServer --no-daemon
+      - name: Check the game log for data errors
+        run: |
+          test -f run/logs/latest.log
+          if grep -E "ERROR|WARN" run/logs/latest.log | grep -i "mcflora"; then
+            echo "::error::mcflora data produced errors or warnings while loading (see above)"
+            exit 1
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: mcflora-jar

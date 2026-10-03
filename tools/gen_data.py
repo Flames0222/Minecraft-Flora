@@ -1,7 +1,9 @@
 """Generates blockstates, models, loot tables, tags, recipes, lang and worldgen JSON.
 Re-run after editing: python3 tools/gen_data.py"""
+import gzip
 import json
 import shutil
+import struct
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent / "src/main/resources"
@@ -25,7 +27,7 @@ def tex(name):
 
 for sub in ("blockstates", "models"):
     shutil.rmtree(A / sub, ignore_errors=True)
-for sub in ("loot_table", "recipe", "tags", "worldgen", "neoforge"):
+for sub in ("loot_table", "recipe", "tags", "worldgen", "neoforge", "structure"):
     shutil.rmtree(D / sub, ignore_errors=True)
 shutil.rmtree(ROOT / "data/minecraft/tags", ignore_errors=True)
 shutil.rmtree(ROOT / "data/neoforge", ignore_errors=True)
@@ -476,5 +478,49 @@ modifier("add_jungle_flora", "has_jungle_flora", ["monstera", "birds_nest_fern",
 patch("rafflesia", provider("rafflesia"), state("rafflesia"), tries=4, xz=4, y=2)
 placed("rafflesia", surface(rarity=10))
 modifier("add_rafflesia", "has_rafflesia", ["rafflesia"])
+
+# --------------------------------------------------------------------------- game test template
+#
+# An empty 11x8x11 box of air that the game tests build their terrain in (see FloraGameTests).
+
+TAG_INT, TAG_STRING, TAG_LIST, TAG_COMPOUND = 3, 8, 9, 10
+
+
+def nbt_string(value):
+    data = value.encode("utf-8")
+    return struct.pack(">H", len(data)) + data
+
+
+def nbt_payload(tag_type, value):
+    if tag_type == TAG_INT:
+        return struct.pack(">i", value)
+    if tag_type == TAG_STRING:
+        return nbt_string(value)
+    if tag_type == TAG_LIST:
+        element_type, items = value
+        return struct.pack(">bi", element_type, len(items)) + b"".join(nbt_payload(element_type, i) for i in items)
+    if tag_type == TAG_COMPOUND:
+        body = b"".join(struct.pack(">b", t) + nbt_string(k) + nbt_payload(t, v) for k, (t, v) in value.items())
+        return body + b"\x00"
+    raise ValueError(tag_type)
+
+
+def write_structure(path, size, palette, blocks):
+    root = {
+        "DataVersion": (TAG_INT, 3955),  # Minecraft 1.21.1
+        "size": (TAG_LIST, (TAG_INT, list(size))),
+        "palette": (TAG_LIST, (TAG_COMPOUND, [{"Name": (TAG_STRING, name)} for name in palette])),
+        "blocks": (TAG_LIST, (TAG_COMPOUND, [
+            {"pos": (TAG_LIST, (TAG_INT, list(pos))), "state": (TAG_INT, state)} for pos, state in blocks])),
+        "entities": (TAG_LIST, (TAG_COMPOUND, [])),
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    raw = struct.pack(">b", TAG_COMPOUND) + nbt_string("") + nbt_payload(TAG_COMPOUND, root)
+    path.write_bytes(gzip.compress(raw, mtime=0))
+
+
+PLATFORM = (11, 8, 11)
+write_structure(D / "structure/platform.nbt", PLATFORM, ["minecraft:air"],
+                [((x, y, z), 0) for y in range(PLATFORM[1]) for z in range(PLATFORM[2]) for x in range(PLATFORM[0])])
 
 print("data written under", ROOT)
